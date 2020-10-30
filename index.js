@@ -4,7 +4,7 @@ const extractFrames = require('./extractFrames.js');
 
 program
   .option('-i, --input <val>', 'input path for file')
-  .option('-d, --dir <val>', 'directory name')
+  .option('-o, --output <val>', 'output path')
   .option('-f, --fps <val>', 'how many frames per second to output')
   .parse(process.argv);
 
