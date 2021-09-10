@@ -1,5 +1,7 @@
 # video-to-images
 
+helpful library for extracting some cool stills from a movie
+
 ```bash
 brew install ffmpeg
 ```
